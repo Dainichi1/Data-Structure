@@ -1,6 +1,5 @@
 package Capitolo_005_Find_Second_Maximum_Value_in_an_Array_Timestamp_2_28;
 
-import Capitolo_004_Find_Minimum_Value_in_Array_Timestamp_2_16.MinArray;
 
 public class SecondMax {
 
