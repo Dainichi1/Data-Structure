@@ -63,9 +63,6 @@ public class SinglyLinkedList {
         sl.insertFirst(8);
         sl.display();
         System.out.println("\nLength is : "+sl.length());
-
-
-
     }
 
 }
