@@ -19,6 +19,7 @@ public class SinglyLinkedList {
         }
     }
 
+    // STAMPO GLI ELEMENTI NELLA LISTA
     public void display() {
         ListNode current = head;
         while (current != null) {

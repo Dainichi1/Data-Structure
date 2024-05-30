@@ -19,6 +19,7 @@ public class SinglyLinkedList {
         }
     }
 
+    // STAMPO GLIELEMENTI DELLA LISTA
     public void display() {
         ListNode current = head;
         while (current != null) {
@@ -28,6 +29,7 @@ public class SinglyLinkedList {
         System.out.print("null");
     }
 
+    // NUMERO DEGLI ELEMENTI DELLA LISTA
     public int length() {
         if (head == null) {
             return 0;
@@ -41,6 +43,7 @@ public class SinglyLinkedList {
         return  count;
     }
 
+    // AGGIUNGO UN ELEMENTO ALL'INIZIO DELLA LISTA
     public void insertFirst(int value) {
         ListNode newNode = new ListNode(value);
         newNode.next = head;
@@ -48,6 +51,7 @@ public class SinglyLinkedList {
 
     }
 
+    // AGGIUNGO UN ELEMENTO ALLA FINE DELLA LISTA
     public void insertLast(int value) {
         ListNode newNode= new ListNode(value);
         if (head == null) {

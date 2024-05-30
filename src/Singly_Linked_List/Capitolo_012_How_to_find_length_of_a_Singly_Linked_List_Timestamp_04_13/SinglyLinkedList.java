@@ -19,6 +19,7 @@ public class SinglyLinkedList {
         }
     }
 
+    // STAMPO GLI ELEMENTI DELLA LISTA
     public void display() {
         ListNode current = head;
         while (current != null) {
@@ -28,6 +29,7 @@ public class SinglyLinkedList {
         System.out.print("null");
     }
 
+    // NUMERO DI ELEMENTI NELLA LISTA
     public int length() {
         if (head == null) {
             return 0;
