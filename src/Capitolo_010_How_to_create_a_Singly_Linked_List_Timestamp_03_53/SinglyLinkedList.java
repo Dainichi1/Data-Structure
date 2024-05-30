@@ -1,7 +1,4 @@
 package Capitolo_010_How_to_create_a_Singly_Linked_List_Timestamp_03_53;
-
-import java.util.List;
-
 public class SinglyLinkedList {
 
     private ListNode head;
@@ -24,7 +21,7 @@ public class SinglyLinkedList {
         ListNode fourth = new ListNode(11);
 
         // Le collego insieme per formare una catena
-        sll.head.next = second; // 10 --> 1 
+        sll.head.next = second; // 10 --> 1
         second.next = third; // 10 --> 1 --> 8
         third.next = fourth; // 10 --> 1 --> 8 --> 11
 
