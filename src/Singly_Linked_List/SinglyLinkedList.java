@@ -11,6 +11,19 @@ public class SinglyLinkedList {
             this.data = data;
             this.next = null;
         }
+        @Override
+        public String toString() {
+            return String.valueOf(data);
+        }
+    }
+
+    public void display() {
+        ListNode current = head;
+        while (current != null) {
+            System.out.print(current + " --> ");
+            current = current.next;
+        }
+        System.out.print("null");
     }
 
     public static void main(String[] args) {
@@ -24,6 +37,8 @@ public class SinglyLinkedList {
         sll.head.next = second; // 10 --> 1
         second.next = third; // 10 --> 1 --> 8
         third.next = fourth; // 10 --> 1 --> 8 --> 11
+
+        sll.display();
 
     }
 
