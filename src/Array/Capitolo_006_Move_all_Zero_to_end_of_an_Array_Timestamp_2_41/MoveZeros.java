@@ -1,4 +1,4 @@
-package Capitolo_006_Move_all_Zero_to_end_of_an_Array_Timestamp_2_41;
+package Array.Capitolo_006_Move_all_Zero_to_end_of_an_Array_Timestamp_2_41;
 
 public class MoveZeros {
 

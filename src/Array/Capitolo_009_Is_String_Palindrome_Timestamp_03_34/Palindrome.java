@@ -1,4 +1,4 @@
-package Capitolo_009_Is_String_Palindrome_Timestamp_03_34;
+package Array.Capitolo_009_Is_String_Palindrome_Timestamp_03_34;
 
 public class Palindrome {
 

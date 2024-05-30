@@ -1,4 +1,4 @@
-package Capitolo_004_Find_Minimum_Value_in_Array_Timestamp_2_16;
+package Array.Capitolo_004_Find_Minimum_Value_in_Array_Timestamp_2_16;
 
 public class MinArray {
 

@@ -1,4 +1,4 @@
-package Capitolo_008_Find_the_Missing_Number_in_an_Array_Timestamp_03_20;
+package Array.Capitolo_008_Find_the_Missing_Number_in_an_Array_Timestamp_03_20;
 
 public class Missing {
 

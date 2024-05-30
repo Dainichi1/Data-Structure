@@ -1,4 +1,4 @@
-package Capitolo_002_Remove_Even_Integers_from_an_Array;
+package Array.Capitolo_002_Remove_Even_Integers_from_an_Array;
 
 public class RemoveEvenInteger {
     public static void printArray(int[] arr) {

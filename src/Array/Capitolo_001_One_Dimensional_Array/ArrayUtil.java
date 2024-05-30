@@ -1,4 +1,4 @@
-package Capitolo_001_One_Dimensional_Array;
+package Array.Capitolo_001_One_Dimensional_Array;
 
 public class ArrayUtil {
     public void printArray(int[] arr) {

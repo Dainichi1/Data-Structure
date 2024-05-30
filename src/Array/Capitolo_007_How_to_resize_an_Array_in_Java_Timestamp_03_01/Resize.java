@@ -1,6 +1,4 @@
-package Capitolo_007_How_to_resize_an_Array_in_Java_Timestamp_03_01;
-
-import Capitolo_006_Move_all_Zero_to_end_of_an_Array_Timestamp_2_41.MoveZeros;
+package Array.Capitolo_007_How_to_resize_an_Array_in_Java_Timestamp_03_01;
 
 public class Resize {
 

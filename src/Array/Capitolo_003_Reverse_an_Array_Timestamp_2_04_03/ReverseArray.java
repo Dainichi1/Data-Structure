@@ -1,4 +1,4 @@
-package Capitolo_003_Reverse_an_Array_Timestamp_2_04_03;
+package Array.Capitolo_003_Reverse_an_Array_Timestamp_2_04_03;
 
 public class ReverseArray {
 
