@@ -43,14 +43,6 @@ public class SinglyLinkedList {
         return  count;
     }
 
-    // AGGIUNGO UN ELEMENTO ALL'INIZIO DELLA LISTA
-    public void insertFirst(int value) {
-        ListNode newNode = new ListNode(value);
-        newNode.next = head;
-        head = newNode;
-
-    }
-
     // AGGIUNGO UN NODO IN UNA POSIZIONE A MIA SCELTA
     public void insert(int position, int value) {
         int length = length();
@@ -76,20 +68,6 @@ public class SinglyLinkedList {
 
     }
 
-    // AGGIUNGO UN ELEMENTO ALLA FINE DELLA LISTA
-    public void insertLast(int value) {
-        ListNode newNode= new ListNode(value);
-        if (head == null) {
-            head = newNode;
-        }
-        ListNode current = head;
-        while (null != current.next ) {
-            current = current.next;
-        }
-        current.next = newNode;
-    }
-
-
     public static void main(String[] args) {
         SinglyLinkedList sl = new SinglyLinkedList();
         sl.head = new ListNode(10);
@@ -102,10 +80,6 @@ public class SinglyLinkedList {
         second.next = third; // 10 --> 1 --> 8
         third.next = fourth; // 10 --> 1 --> 8 --> 11 --> null
 
-        sl.insertFirst(11);
-        sl.insertFirst(8);
-        sl.insertLast(4564);
-        sl.insertLast(10000);
         sl.insert(3,123);
 
         sl.display();

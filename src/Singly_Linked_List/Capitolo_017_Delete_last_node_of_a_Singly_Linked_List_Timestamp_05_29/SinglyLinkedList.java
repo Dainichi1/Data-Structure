@@ -43,63 +43,6 @@ public class SinglyLinkedList {
         return  count;
     }
 
-    // AGGIUNGO UN ELEMENTO ALL'INIZIO DELLA LISTA
-    public void insertFirst(int value) {
-        ListNode newNode = new ListNode(value);
-        newNode.next = head;
-        head = newNode;
-
-    }
-
-    // AGGIUNGO UN NODO IN UNA POSIZIONE A MIA SCELTA
-    public void insert(int position, int value) {
-        int length = length();
-        if (position == 0 || position > length + 1  ) {
-            throw new IllegalArgumentException("Valore non valido");
-        }
-        ListNode node = new ListNode(value);
-        if (position == 1) {
-           node.next = head;
-           head = node;
-        } else {
-            ListNode previous = head;
-            int count = 1;
-            while ( count < position - 1) {
-                previous = previous.next;
-                count++;
-            }
-
-            ListNode current = previous.next;
-            previous.next = node;
-            node.next = current;
-        }
-
-    }
-
-    // AGGIUNGO UN ELEMENTO ALLA FINE DELLA LISTA
-    public void insertLast(int value) {
-        ListNode newNode= new ListNode(value);
-        if (head == null) {
-            head = newNode;
-        }
-        ListNode current = head;
-        while (null != current.next ) {
-            current = current.next;
-        }
-        current.next = newNode;
-    }
-
-    // CANCELLO IL PRIMO NODO
-    public ListNode deleteFirst() {
-        if (head == null) {
-            return null;
-        }
-        ListNode temp = head;
-        head = temp.next;
-        temp.next = null;
-        return temp;
-    }
-
     // CANCELLO L'ULTIMO NODO
     public ListNode deleteLast() {
         if (head == null || head.next == null) {
@@ -128,14 +71,6 @@ public class SinglyLinkedList {
         sl.head.next = second; // 10 --> 1
         second.next = third; // 10 --> 1 --> 8
         third.next = fourth; // 10 --> 1 --> 8 --> 11 --> null
-
-        sl.insertFirst(11);
-        sl.insertFirst(8);
-
-        sl.insertLast(4564);
-        sl.insertLast(10000);
-
-        sl.insert(3,123);
 
         sl.display(); // lista originale
         System.out.println("Length is : "+sl.length()+"\n");
