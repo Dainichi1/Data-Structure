@@ -2,7 +2,7 @@ package Singly_Linked_List.Capitolo_010_How_to_create_a_Singly_Linked_List_Times
 
 public class SinglyLinkedList {
 
-    private SinglyLinkedList.ListNode head;
+    private ListNode head;
 
     private static class ListNode {
         private int data; // generic type

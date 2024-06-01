@@ -49,20 +49,20 @@ public class SinglyLinkedList {
     }
 
     public static void main(String[] args) {
-
-        ListNode head = new ListNode(10);
+        SinglyLinkedList sll = new SinglyLinkedList();
+        sll.head = new ListNode(10);
         ListNode second = new ListNode(5);
         ListNode third = new ListNode(8);
         ListNode fourth = new ListNode(23);
 
-        head.next = second;
+        sll.head.next = second;
         second.next = third;
         third.next = fourth;
 
-        SinglyLinkedList sll = new SinglyLinkedList();
 
-        sll.display(head);
-        ListNode reversedListHead = sll.reverse(head);
+
+        sll.display(sll.head);
+        ListNode reversedListHead = sll.reverse(sll.head);
         sll.display(reversedListHead);
     }
 
