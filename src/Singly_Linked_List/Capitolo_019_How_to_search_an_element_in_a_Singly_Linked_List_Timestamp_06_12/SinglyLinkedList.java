@@ -22,7 +22,7 @@
     }
 
     // STAMPO GLIELEMENTI DELLA LISTA
-    public void display() {
+    public void display(ListNode head) {
         ListNode current = head;
         while (current != null) {
             System.out.print(current + " --> ");
@@ -46,7 +46,7 @@
     }
 
     // ELEMENTO TROVATO O NON TROVATO
-    public boolean find(int searchKey) {
+    public boolean find(ListNode head, int searchKey) {
         if (head == null) {
             return false;
         }
@@ -62,20 +62,21 @@
     }
 
     public static void main(String[] args) {
-        SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
-        singlyLinkedList.head = new ListNode(10);
-        ListNode second = new ListNode(8);
-        ListNode third = new ListNode(1);
-        ListNode fourth = new ListNode(11);
+        ListNode head = new ListNode(10);
+        ListNode second = new ListNode(5);
+        ListNode third = new ListNode(8);
+        ListNode fourth = new ListNode(23);
 
-        singlyLinkedList.head.next = second;
+        head.next = second;
         second.next = third;
         third.next = fourth;
 
+        SinglyLinkedList sll = new SinglyLinkedList();
 
-        singlyLinkedList.display();
+
+        sll.display(head);
         int searchKey = 11312;
-        if (singlyLinkedList.find(searchKey)) {
+        if (sll.find(head, searchKey)) {
             System.out.println("Elemento: "+searchKey+" trovato");
         } else {
             System.out.println("Elemento: "+searchKey+" non trovato ");
