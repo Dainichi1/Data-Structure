@@ -17,24 +17,6 @@ public class SinglyLinkedList {
         }
     }
 
-    // STAMPO LA LISTA
-    public void display () {
-        ListNode current = head;
-        while (current != null) {
-            System.out.print(current+" ----> ");
-            current = current.next;
-        }
-        System.out.println(""+null);
-    }
-
-    // AGGIUNGO UN ELEMENTO ALL'INIZIO DELLA LISTA
-    public void insertFirst(int value) {
-        ListNode newNode = new ListNode(value);
-        newNode.next = head;
-        head = newNode;
-
-    }
-
     // CONTROLLO SE C'E' UN LOOP NELLA LISTA
     public boolean containsLoop () {
         ListNode fastPointer = head;
