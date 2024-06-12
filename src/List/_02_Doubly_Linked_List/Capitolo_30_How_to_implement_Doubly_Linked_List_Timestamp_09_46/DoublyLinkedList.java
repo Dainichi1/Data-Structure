@@ -2,8 +2,8 @@ package List._02_Doubly_Linked_List.Capitolo_30_How_to_implement_Doubly_Linked_L
 
 public class DoublyLinkedList {
 
-    private ListNode head;
-    private ListNode tail;
+    private ListNode head; // puntatore alla testa
+    private ListNode tail; // puntatore alla coda
     private int length;
 
     private class ListNode {
