@@ -1,4 +1,4 @@
-package _02_List._02_Doubly_Linked_List.Capitolo_32_How_to_insert_node_at_the_beginning_of_a_Doubly_Linked_List_Timestamp_10_05;
+package _02_List._02_Doubly_Linked_List.Capitolo_33_How_to_insert_node_at_the_end_of_a_Doubly_Linked_List_Timestamp_10_15;
 
 public class DoublyLinkedList {
 
@@ -49,6 +49,7 @@ public class DoublyLinkedList {
         if (tail == null) {
             return;
         }
+
         ListNode temp = tail;
         while (temp != null) {
             System.out.print(temp.data+ " --> ");
@@ -57,28 +58,29 @@ public class DoublyLinkedList {
         System.out.println("null");
     }
 
-    // INSERISCO UN NODO ALL'INIZIO DELLA LISTA
-    public void insertFirst (int value) {
+    // INSERISCO UN NODO ALLA FINE
+    public void insertLast (int value) {
         ListNode newNode = new ListNode(value);
-        if (isEmpty()) {
-            tail = newNode;
+        if(isEmpty()) {
+            head = newNode;
         } else {
-            head.previous = newNode;
+            tail.next = newNode;
         }
-        newNode.next = head;
-        head = newNode;
+        newNode.previous = tail;
+        tail = newNode;
         length++;
     }
 
     public static void main(String[] args) {
         DoublyLinkedList dll = new DoublyLinkedList();
-        dll.insertFirst(1);
-        dll.insertFirst(10);
-        dll.insertFirst(15);
-        dll.insertFirst(25);
+        dll.insertLast(1);
+        dll.insertLast(10);
+        dll.insertLast(15);
+        dll.insertLast(25);
 
         dll.displayForward();
         dll.displayBackward();
+        System.out.println("\nLa lunghezze della lista è: "+dll.length);
     }
 
 }
