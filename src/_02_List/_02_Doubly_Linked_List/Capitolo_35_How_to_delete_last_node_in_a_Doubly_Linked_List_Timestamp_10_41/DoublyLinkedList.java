@@ -1,4 +1,4 @@
-package _02_List._02_Doubly_Linked_List.Capitolo_34_How_to_delete_first_node_in_a_Doubly_Linked_List_Timestamp_10_26;
+package _02_List._02_Doubly_Linked_List.Capitolo_35_How_to_delete_last_node_in_a_Doubly_Linked_List_Timestamp_10_41;
 
 import java.util.NoSuchElementException;
 
@@ -73,20 +73,20 @@ public class DoublyLinkedList {
         length++;
     }
 
-    // CANCELLO IL NODO INIZIALE
-    public ListNode deleteFirst () {
+    // CANCELLO IL NODO finale
+    public ListNode deleteLast () {
         if (isEmpty()) {
             throw new NoSuchElementException();
         }
 
-        ListNode temp = head;
+        ListNode temp = tail;
         if (head == tail) {
-            tail = null;
+            head = null;
         } else {
-            head.next.previous = null;
+            tail.previous.next = null;
         }
-        head = head.next;
-        temp.next = null;
+        tail = tail.previous;
+        temp.previous = null;
         length--;
         return temp;
     }
@@ -102,7 +102,7 @@ public class DoublyLinkedList {
         dll.displayBackward();
         System.out.println("La lunghezze della lista è: "+dll.length+"\n");
 
-        dll.deleteFirst();
+        dll.deleteLast();
         dll.displayForward();
         dll.displayBackward();
         System.out.println("La lunghezze della lista è: "+dll.length);
