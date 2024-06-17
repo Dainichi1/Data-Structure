@@ -129,6 +129,9 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 
 </details>
 
+<details>
+    <summary>CIRCULAR SINGLY LINKED LIST</summary>
+
 #### Capitolo 036: How to Insert a Node at the Beginning of a Circular Singly Linked List
 - **Timestamp:** 11:23
 
@@ -145,6 +148,8 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 - **Timestamp:** 12:14
 
 </details>
+</details>
+
 
 ### Capitolo 041: How to Implement a Stack
 - **Timestamp:** 12:14
