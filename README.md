@@ -106,6 +106,9 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 
 </details>
 
+<details>
+    <summary>DOUBLY LINKED LIST</summary>
+
 #### Capitolo 030: Insert Node at the Beginning of a Doubly Linked List
 - **Timestamp:** 09:52
 
@@ -123,6 +126,8 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 
 #### Capitolo 035: How to Traverse and Print a Circular Singly Linked List
 - **Timestamp:** 11:11
+
+</details>
 
 #### Capitolo 036: How to Insert a Node at the Beginning of a Circular Singly Linked List
 - **Timestamp:** 11:23
