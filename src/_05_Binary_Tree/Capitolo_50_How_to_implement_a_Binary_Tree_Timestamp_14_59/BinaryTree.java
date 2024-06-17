@@ -1,6 +1,4 @@
-package _05_Binary_Tree.Capitolo_50_How_to_implement_a_Binary_Tree_Timestamp_14_9;
-
-import javax.swing.tree.TreeNode;
+package _05_Binary_Tree.Capitolo_50_How_to_implement_a_Binary_Tree_Timestamp_14_59;
 
 public class BinaryTree {
 
