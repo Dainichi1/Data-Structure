@@ -6,7 +6,8 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 
 ## Capitoli
 
-### ARRAY
+<details>
+  <summary>ARRAY</summary>
 
 #### Capitolo 001: One Dimensional Array
 - **Timestamp:** 03:01
@@ -35,7 +36,7 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 #### Capitolo 009: Is String Palindrome
 - **Timestamp:** 03:34
 
----
+</details>
 
 ### Capitolo 010: How to Create a Singly Linked List
 - **Timestamp:** 03:53
