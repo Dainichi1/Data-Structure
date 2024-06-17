@@ -2,35 +2,37 @@ Link alle lezioni:
 
 https://www.youtube.com/watch?v=2ZLl8GAk1X4&list=PLeitvsdfIzlwwOZLEmzEqS0jH7i6wW4Af&index=15
 
-Questo progetto contiene vari esempi ed esercizi sui data structures in Java.
+Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 
 ## Capitoli
 
-### Capitolo 001: One Dimensional Array
+### ARRAY
+
+#### Capitolo 001: One Dimensional Array
 - **Timestamp:** 03:01
 
-### Capitolo 002: Remove Even Integers from an Array
+#### Capitolo 002: Remove Even Integers from an Array
 - **Timestamp:** 03:06
 
-### Capitolo 003: Reverse an Array
+#### Capitolo 003: Reverse an Array
 - **Timestamp:** 04:03
 
-### Capitolo 004: Find Minimum Value in Array
+#### Capitolo 004: Find Minimum Value in Array
 - **Timestamp:** 02:16
 
-### Capitolo 005: Find Second Maximum Value in Array
+#### Capitolo 005: Find Second Maximum Value in Array
 - **Timestamp:** 02:28
 
-### Capitolo 006: Move All Zero to End of Array
+#### Capitolo 006: Move All Zero to End of Array
 - **Timestamp:** 02:41
 
-### Capitolo 007: How to Resize an Array in Java
+#### Capitolo 007: How to Resize an Array in Java
 - **Timestamp:** 03:20
 
-### Capitolo 008: Find the Missing Number in Array
+#### Capitolo 008: Find the Missing Number in Array
 - **Timestamp:** 03:17
 
-### Capitolo 009: Is String Palindrome
+#### Capitolo 009: Is String Palindrome
 - **Timestamp:** 03:34
 
 ### Capitolo 010: How to Create a Singly Linked List
@@ -158,4 +160,3 @@ Questo progetto contiene vari esempi ed esercizi sui data structures in Java.
 
 ### Capitolo 051: Recursive Pre Order Traversal of a Binary Tree
 - **Timestamp:** 15:06
-
