@@ -42,7 +42,7 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
   <summary>LIST</summary>
 
 <details>
-    <summary>SINGLY LINKED LIST</summary>
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;SINGLY LINKED LIST</summary>
 
 #### Capitolo 010: How to Create a Singly Linked List
 - **Timestamp:**  03:53
@@ -107,7 +107,7 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 </details>
 
 <details>
-    <summary>DOUBLY LINKED LIST</summary>
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;DOUBLY LINKED LIST</summary>
 
 #### Capitolo 030: Insert Node at the Beginning of a Doubly Linked List
 - **Timestamp:** 09:52
@@ -130,7 +130,7 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 </details>
 
 <details>
-    <summary>CIRCULAR SINGLY LINKED LIST</summary>
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;CIRCULAR SINGLY LINKED LIST</summary>
 
 #### Capitolo 036: How to Insert a Node at the Beginning of a Circular Singly Linked List
 - **Timestamp:** 11:23
