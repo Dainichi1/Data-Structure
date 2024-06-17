@@ -71,6 +71,22 @@ public class Queue {
         System.out.println("null");
     }
 
+    // PRIMO ELEMENTO
+    public int first() {
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        return front.data;
+    }
+
+    // ULTIMO ELEMENTO
+    public int last() {
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        return rear.data;
+    }
+
 
     public static void main(String[] args) {
         Queue queue = new Queue();
@@ -78,6 +94,8 @@ public class Queue {
         queue.enqueue(15);
         queue.enqueue(20);
         queue.print();
+        System.out.println(queue.first());
+        System.out.println(queue.last());
 
         queue.dequeue();
         queue.print();
