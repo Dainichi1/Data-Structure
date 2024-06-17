@@ -38,6 +38,9 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 
 </details>
 
+<details>
+  <summary>LIST</summary>
+
 ### Capitolo 010: How to Create a Singly Linked List
 - **Timestamp:** 03:53
 
@@ -130,6 +133,8 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 
 ### Capitolo 040: How to Remove First Node from a Circular Singly Linked List
 - **Timestamp:** 12:14
+
+</details>
 
 ### Capitolo 041: How to Implement a Stack
 - **Timestamp:** 12:14
