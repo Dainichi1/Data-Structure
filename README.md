@@ -1,6 +1,7 @@
 Link alle lezioni:
 
 https://www.youtube.com/watch?v=2ZLl8GAk1X4&list=PLeitvsdfIzlwwOZLEmzEqS0jH7i6wW4Af&index=15
+
 Questo progetto contiene vari esempi ed esercizi sui data structures in Java.
 
 ## Capitoli
