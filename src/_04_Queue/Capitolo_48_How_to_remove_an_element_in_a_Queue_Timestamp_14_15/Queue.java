@@ -1,4 +1,4 @@
-package _04_Queue.Capitolo_47_How_to_remove_an_element_in_a_Queue_Timestamp_14_15;
+package _04_Queue.Capitolo_48_How_to_remove_an_element_in_a_Queue_Timestamp_14_15;
 
 import java.util.NoSuchElementException;
 
