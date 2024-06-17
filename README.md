@@ -150,6 +150,8 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 </details>
 </details>
 
+<details>
+  <summary>STACK</summary>
 
 ### Capitolo 041: How to Implement a Stack
 - **Timestamp:** 12:14
@@ -166,20 +168,32 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 ### Capitolo 045: Valid Parentheses
 - **Timestamp:** 13:29
 
-### Capitolo 046: How to Implement a Queue
+</details>
+
+<details>
+  <summary>QUEUE</summary>
+
+#### Capitolo 046: How to Implement a Queue
 - **Timestamp:** 13:53
 
 ### Capitolo 047: How to Insert an Element in a Queue
 - **Timestamp:** 13:58
 
-### Capitolo 048: How to Remove an Element in a Queue
+#### Capitolo 048: How to Remove an Element in a Queue
 - **Timestamp:** 14:15
 
-### Capitolo 049: Generate Binary Numbers from 1 to n
+#### Capitolo 049: Generate Binary Numbers from 1 to n
 - **Timestamp:** 14:32
 
-### Capitolo 050: How to Implement a Binary Tree
+</details>
+
+<details>
+  <summary>BINARY TREE</summary>
+
+#### Capitolo 050: How to Implement a Binary Tree
 - **Timestamp:** 14:59
 
-### Capitolo 051: Recursive Pre Order Traversal of a Binary Tree
+#### Capitolo 051: Recursive Pre Order Traversal of a Binary Tree
 - **Timestamp:** 15:06
+
+</details>
