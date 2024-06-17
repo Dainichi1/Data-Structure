@@ -41,7 +41,7 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 <details>
   <summary>LIST</summary>
 
-  <details>
+<details>
     <summary>SINGLY LINKED LIST</summary>
 
     Capitolo 010: How to Create a Singly Linked List
@@ -104,7 +104,7 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
     Capitolo 029: How to Implement Doubly Linked List
     - Timestamp: 09:46
 
-  </details>
+</details>
 
 #### Capitolo 030: Insert Node at the Beginning of a Doubly Linked List
 - **Timestamp:** 09:52
