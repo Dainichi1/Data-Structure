@@ -35,6 +35,8 @@ Questo progetto contiene vari esempi e esercizi sui data structures in Java.
 #### Capitolo 009: Is String Palindrome
 - **Timestamp:** 03:34
 
+---
+
 ### Capitolo 010: How to Create a Singly Linked List
 - **Timestamp:** 03:53
 
