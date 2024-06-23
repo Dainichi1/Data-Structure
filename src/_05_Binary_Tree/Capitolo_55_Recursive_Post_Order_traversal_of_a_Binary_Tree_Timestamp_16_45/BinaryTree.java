@@ -55,7 +55,7 @@ public class BinaryTree {
 
 /*
              9
-            /  \
+            /  \/
            /    \
           2      3
          / \    / \
