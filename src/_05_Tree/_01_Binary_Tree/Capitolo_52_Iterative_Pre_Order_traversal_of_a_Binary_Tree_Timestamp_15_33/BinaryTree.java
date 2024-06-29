@@ -1,4 +1,4 @@
-package _05_Binary_Tree.Capitolo_52_Iterative_Pre_Order_traversal_of_a_Binary_Tree_Timestamp_15_33;
+package _05_Tree._01_Binary_Tree.Capitolo_52_Iterative_Pre_Order_traversal_of_a_Binary_Tree_Timestamp_15_33;
 
 import java.util.Stack;
 

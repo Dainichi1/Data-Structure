@@ -1,6 +1,7 @@
-package _05_Binary_Tree.Capitolo_58_Recursive_Find_maximum_value_in_a_Binary_Tree_Timestamp_18_13;
+package _05_Tree._01_Binary_Tree.Capitolo_57_Level_order_traversal_of_a_Binary_Tree_Timestamp_17_54;
 
-import java.util.Stack;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class BinaryTree {
 
@@ -19,11 +20,10 @@ public class BinaryTree {
     public void createBinaryTree() {
         TreeNode first = new TreeNode(1);
         TreeNode second = new TreeNode(2);
-        TreeNode third = new TreeNode(8);
+        TreeNode third = new TreeNode(3);
         TreeNode fourth = new TreeNode(4);
         TreeNode fifth = new TreeNode(5);
         TreeNode sixth = new TreeNode(6);
-        TreeNode seventh = new TreeNode(7);
 
 
         root = first; // root --> first
@@ -31,32 +31,44 @@ public class BinaryTree {
         first.right = third; // second <-- first --> third
         second.left = fourth;
         second.right = fifth;
-        third.right = sixth;
-        third.left = seventh;
+        third.left = sixth;
     }
 
     // ATTRAVERSO IN PROFONDITà L'ALBERO E STAMPO I NUMERI DEI NODI
-    public int findMax(TreeNode root) {
+    public void levelOrder() {
         if (root == null) {
-            return Integer.MIN_VALUE;
+            return;
         }
-
-        int result = root.data;;
-        int left = findMax(root.left);
-        int right = findMax(root.right);
-
-        if (left > result) {
-            result = left;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            TreeNode temp = queue.poll();
+            System.out.print(temp.data+" ");
+            if (temp.left != null) {
+                queue.offer(temp.left);
+            }
+            if (temp.right != null) {
+                if (temp.right != null) {
+                    queue.offer(temp.right);
+                }
+            }
         }
-        if (right > result) {
-            result = right;
-        }
-        return result;
         }
 
     public static void main(String[] args) {
         BinaryTree bt = new BinaryTree();
         bt.createBinaryTree();
-        System.out.println(bt.findMax(bt.root));
+        bt.levelOrder();
     }
 }
+
+/*
+             9
+            /  \
+           /    \
+          2      3
+         / \     | \
+        /   \    | null
+       4      5  6
+    null null  null null
+ */

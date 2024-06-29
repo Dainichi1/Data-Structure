@@ -1,4 +1,4 @@
-package _05_Binary_Tree.Capitolo_56_Iterative_Post_Order_traversal_of_a_Binary_Tree_Timestamp_17_11;
+package _05_Tree._01_Binary_Tree.Capitolo_54_Iterative_In_Order_traversal_of_a_Binary_Tree_Timestamp_16_16;
 
 import java.util.Stack;
 
@@ -30,29 +30,26 @@ public class BinaryTree {
         first.right = fifth; // second <-- first --> third
         second.left = third;
         second.right = fourth;
-        fifth.right = sixth;
+        fifth.left = sixth;
     }
 
     // ATTRAVERSO IN PROFONDITà L'ALBERO E STAMPO I NUMERI DEI NODI
-    public void postOrder() {
-        TreeNode current = root;
+    public void inOrder() {
+        if (root == null) {
+            return;
+        }
+
         Stack<TreeNode> stack = new Stack<>();
-        while (current != null || !stack.isEmpty()) {
-            if (current != null) {
-                stack.push(current);
-                current = current.left;
+        TreeNode temp = root;
+
+        while (!stack.isEmpty() || temp != null) {
+            if (temp != null) {
+                stack.push(temp);
+                temp = temp.left;
             } else {
-                TreeNode temp = stack.peek().right;
-                if (temp == null) {
-                    temp = stack.pop();
-                    System.out.println(temp.data+" " );
-                    while (!stack.isEmpty() && temp == stack.peek().right) {
-                        temp = stack.pop();
-                        System.out.println(temp.data+" ");
-                    }
-                } else {
-                    current = temp;
-                }
+                temp = stack.pop();
+                System.out.println(temp.data+" ");
+                    temp = temp.right;
                 }
             }
         }
@@ -60,7 +57,7 @@ public class BinaryTree {
     public static void main(String[] args) {
         BinaryTree bt = new BinaryTree();
         bt.createBinaryTree();
-        bt.postOrder();
+        bt.inOrder();
     }
 }
 
@@ -70,7 +67,7 @@ public class BinaryTree {
            /    \
           2      3
          / \     / \
-        /   \    nul 6
-       4      5     / \
-    null null  null    nul
+        /   \   6    null
+       4      5
+    null null  null
  */

@@ -1,4 +1,4 @@
-package _05_Binary_Tree.Capitolo_51_Recursive_Pre_Order_traversal_of_a_Binary_Tree_Timestamp_15_06;
+package _05_Tree._01_Binary_Tree.Capitolo_55_Recursive_Post_Order_traversal_of_a_Binary_Tree_Timestamp_16_45;
 
 public class BinaryTree {
 
@@ -19,42 +19,47 @@ public class BinaryTree {
         TreeNode second = new TreeNode(2);
         TreeNode third = new TreeNode(3);
         TreeNode fourth = new TreeNode(4);
+        TreeNode fifth = new TreeNode(5);
+        TreeNode sixth = new TreeNode(6);
 
 
         root = first; // root --> first
         first.left = second;
-        first.right = third; // second <-- first --> third
+        first.right = third;
+        second.left = fourth; // second <-- first --> third
+        second.right = fifth;
+        third.left = sixth;
 
-        second.left = fourth;
 
 
 
     }
 
     // ATTRAVERSO IN PROFONDITà L'ALBERO E STAMPO I NUMERI DEI NODI
-    public void preOrder(TreeNode root) {
+    public void postOrder(TreeNode root) {
         if (root == null) {
             return;
         }
 
+        postOrder(root.left);
+        postOrder (root.right);
         System.out.print(root.data+ " ");
-        preOrder(root.left);
-        preOrder(root.right);
+
     }
     public static void main(String[] args) {
         BinaryTree bt = new BinaryTree();
         bt.createBinaryTree();
-        bt.preOrder(bt.root);
+        bt.postOrder(bt.root);
     }
 }
 
 /*
              9
-            /  \
+            /  \/
            /    \
           2      3
-         / \    null null
-        /   \
-       4    null null
+         / \    / \
+        /   \   6  null
+       4    5 null
     null null
  */
